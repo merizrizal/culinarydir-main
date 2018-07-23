@@ -35,6 +35,6 @@ phpunit.phar
 /.vagrant
 
 /engine/*
-/upload/*
+/uploads/*
 /assets/*
 /backoffice/assets/*
