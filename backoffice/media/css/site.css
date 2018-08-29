@@ -203,6 +203,16 @@ td span.select2-selection__rendered {
     line-height: 1.42857143;
 }
 
+/* Select2 */
+.select2-container--krajee .select2-selection,
+.select2-dropdown {
+    border-radius: 0px;
+}
+
+.select2-container--krajee .select2-selection__clear {
+    top: 0.1rem;
+}
+
 .popover.top {
     margin-top: 15px;
 }
@@ -214,15 +224,6 @@ div[class$="view"] table th {
 .modal-footer .btn + .btn {
     margin-bottom: 5px;
     margin-left: 0px;
-}
-
-.select2-container--krajee .select2-selection,
-.select2-dropdown {
-    border-radius: 0px;
-}
-
-.select2-container--krajee .select2-selection__clear {
-    top: 0.1rem;
 }
 
 .summary {

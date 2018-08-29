@@ -650,7 +650,6 @@ a:hover, a:focus {
 }
 .panel_toolbox {
   float: right;
-  min-width: 70px;
 }
 .panel_toolbox>li {
   float: left;
@@ -1343,10 +1342,8 @@ ul.msg_list li a .message {
   box-shadow: none;
   display: none;
   float: left;
-  font-size: 12px;
   left: 0;
   list-style: none outside none;
-  padding: 0;
   position: absolute;
   text-shadow: none;
   top: 100%;
@@ -1763,7 +1760,7 @@ h4.graph_title {
 }
 
 .tile-stats h3 {
-  color: #BAB8B8;
+  color: inherit;
 }
 
 .tile-stats p {
