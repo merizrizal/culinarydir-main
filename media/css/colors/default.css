@@ -34,6 +34,54 @@
     top: -50px;
 }
 
+/*home*/
+
+.detail .view .recent-post .box {
+    padding: 0px;
+    height: 440px;
+    margin-bottom: 20px;
+}
+
+.container .view .recent-post .box .post-header,
+.container .view .recent-post .box .post-entry {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.post-thumbnail {
+    margin-bottom: 5px;
+}
+
+.container .view .recent-post .box .head {
+    padding: 10px 10px;
+}
+
+.post-header .rating-container .rating-stars {
+    cursor: auto;
+}
+
+.list-inline > li .share-feature {
+    cursor: pointer;
+}
+
+.detail .recent-post .rating-md {
+    font-size: 1.2em;
+    box-shadow: none;
+}
+
+.detail .recent-post .rating-container .filled-stars {
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+}
+.buttons,
+.business-name {
+    padding-left: 5.5px;
+}
+
+.container .view .recent-post .rating .pt-10 {
+    padding-top: 3px !important;
+}
+
 /*animation home*/
 .animate-bounce {
     animation: bounce 0.5s;
@@ -236,10 +284,6 @@
     margin: 10px 0 7px 0;
 }
 
-.popover-body .star {
-    font-size: 14px;
-}
-
 .detail.place-detail .widget-posts-image {
     width: 50px;
 }
@@ -251,6 +295,31 @@
 .detail.place-detail .widget-posts-body small {
     position: relative;
     top: -5px;
+}
+
+.detail.place-detail .social-media-share-list .icheckbox_minimal-red {
+    top: -1px;
+}
+
+.detail.place-detail .user-comment-review {
+    margin-left: 70px;
+}
+
+.detail.place-detail .rating-md {
+    font-size: 0;
+}
+
+.detail.place-detail .rating-md > .rating-stars > .rating-input {
+    display: none;
+}
+
+.detail.place-detail .rating-container .filled-stars {
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+}
+
+.detail.place-detail .review-post .rating {
+    margin-top: 7px;
 }
 
 /*user profile*/
@@ -415,6 +484,40 @@
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 1px;
+}
+
+/*review*/
+.detail.review .widget-posts-image {
+    width: 50px;
+}
+
+.detail.review .widget .widget-posts-body {
+    margin-left: 70px;
+}
+
+.detail.review .user-comment-review {
+    margin-left: 70px;
+}
+
+.detail.review .review-container .rating {
+    margin-top: 7px;
+}
+
+/*photo*/
+.detail.photo .widget-posts-image {
+    width: 50px;
+}
+
+.detail.photo .widget .widget-posts-body {
+    margin-left: 70px;
+}
+
+.detail.photo .user-comment-review {
+    margin-left: 70px;
+}
+
+.detail.photo .photo-review img {
+    max-height: 400px;
 }
 
 /*update profile*/
@@ -911,6 +1014,27 @@ a.form-control:hover {
     font-family: "Museo Sans Cyrl 300";
 }
 
+.popover-body .rating-md {
+    font-size: 0;
+}
+
+.popover-body .rating-md > .rating-stars > .rating-input {
+    display: none;
+}
+
+.popover-body .rating-container .filled-stars {
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+}
+
+.popover-body .star {
+    font-size: 14px;
+}
+
+.popover-rating .popover-title {
+    display: none;
+}
+
 /*default box*/
 .default-box {
     padding: 20px;
@@ -1305,7 +1429,9 @@ a.form-control:hover {
 
     .in-result .box .widget,
     .view .widget,
-    .place-detail .widget {
+    .place-detail .widget,
+    .review .widget,
+    .photo .widget {
         margin-bottom: 0px;
     }
 
