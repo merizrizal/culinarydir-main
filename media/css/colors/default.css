@@ -82,6 +82,10 @@
     padding-top: 3px !important;
 }
 
+.container .view .recent-post .post .head .user-name {
+    padding-left: 0px;
+}
+
 /*animation home*/
 .animate-bounce {
     animation: bounce 0.5s;
