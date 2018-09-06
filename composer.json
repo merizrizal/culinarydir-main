@@ -36,7 +36,8 @@
         "kartik-v/yii2-field-range": "*",
         "kartik-v/yii2-popover-x": "*",
         "2amigos/yii2-ckeditor-widget" : "~2.1",
-        "2amigos/yii2-gallery-widget": "~1.0"
+        "2amigos/yii2-gallery-widget": "~1.0",
+        "ereminmdev/yii2-infinite-scroll": "^1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
