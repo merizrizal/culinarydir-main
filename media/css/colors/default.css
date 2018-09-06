@@ -331,10 +331,6 @@
     margin-top: 5px;
 }
 
-.box.user {
-    height : 260px;
-}
-
 .detail.user-profile .widget-posts-image {
     width: 160px;
     margin-right: 20px;
@@ -1848,6 +1844,10 @@ a.form-control:hover {
 
 /*lg*/
 @media (min-width: 1200px) {
+
+    .box.user {
+        height : 257px;
+    }
 
     .popover-search .arrow {
         left: 40% !important;
