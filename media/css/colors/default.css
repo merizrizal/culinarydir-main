@@ -51,7 +51,7 @@
     margin-bottom: 5px;
 }
 
-.container .view .recent-post .box .head {
+.head {
     padding: 10px 10px;
 }
 
@@ -59,7 +59,7 @@
     cursor: auto;
 }
 
-.list-inline > li .share-feature {
+.list-inline > li #share-feature {
     cursor: pointer;
 }
 
