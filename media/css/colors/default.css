@@ -190,12 +190,6 @@
 }
 
 /*place detail*/
-.detail.place-detail .view .nav.nav-tabs {
-    border: 1px solid #ddd;
-    border-radius: 5px 5px 0px 0px;
-    background: #fff;
-}
-
 .detail.place-detail .view .tab-content.box {
     border: 1px solid #ddd;
     border-top: none;
@@ -234,10 +228,6 @@
 
 .detail.place-detail .business-rating .points-label {
     margin: 10px 0 7px 0;
-}
-
-.popover-body .star {
-    font-size: 14px;
 }
 
 .detail.place-detail .widget-posts-image {
@@ -282,38 +272,23 @@
     border-radius: 0px;
 }
 
-.detail.user-profile .view .view-journey.nav.nav-tabs li {
+.detail.user-profile .view .view-journey.nav.nav-tabs > li {
     border: none;
     border-radius: 0px;
 }
 
-.detail.user-profile .view .view-journey.nav.nav-tabs li {
-    padding: 0px;
-}
-
-.detail.user-profile .view .view-journey.nav.nav-tabs li a {
+.detail.user-profile .view .view-journey.nav.nav-tabs > li > a {
     padding: 5px 15px;
     font-weight: normal;
+    border: none;
+    margin-right: 0px;
 }
 
-.detail.user-profile .view .view-journey.nav.nav-tabs > li > a,
 .detail.user-profile .view .view-journey.nav.nav-tabs > li.active > a,
 .detail.user-profile .view .view-journey.nav.nav-tabs > li > a:focus,
 .detail.user-profile .view .view-journey.nav.nav-tabs > li > a:hover {
     color: #333;
     background: none;
-    border-bottom: 4px solid rgb(229, 38, 38);
-}
-
-.detail.user-profile .view .view-journey.nav.nav-tabs > li > a {
-    border: none;
-    margin-right: 0px;
-}
-
-.detail.user-profile .view .view-journey.nav.nav-tabs > li > a:focus,
-.detail.user-profile .view .view-journey.nav.nav-tabs > li > a:hover {
-    color: #333;
-    border: none;
     border-bottom: 4px solid rgb(229, 38, 38);
 }
 
@@ -341,49 +316,12 @@
     height: 50px;
 }
 
-.detail.user-profile .view .nav-tabs .badge {
-    position: absolute;
-    padding: 3px 0;
-    background: rgb(229, 38, 38);
-    width: 2rem;
-    height: 2rem;
-    top: 1rem;
-    left: 5.8rem;
-    text-align: center;
-    line-height: 15px;
-    font-size: 1rem;
-    border-radius: 50%;
-    color: white;
+.detail.user-profile .view .nav-tabs .badge.total-saved-search {
+    left: 8rem;
 }
 
 .detail.user-profile .view .nav-tabs .badge.total-new-promo {
-    position: absolute;
-    padding: 3px 0;
-    background: rgb(229, 38, 38);
-    width: 2rem;
-    height: 2rem;
-    top: 1rem;
-    left: 8rem;
-    text-align: center;
-    line-height: 15px;
-    font-size: 1rem;
-    border-radius: 50%;
-    color: white;
-}
-
-.detail.user-profile .view .nav-tabs .badge.total-saved-search {
-    position: absolute;
-    padding: 3px 0;
-    background: rgb(229, 38, 38);
-    width: 2rem;
-    height: 2rem;
-    top: 1rem;
-    left: 8.6rem;
-    text-align: center;
-    line-height: 15px;
-    font-size: 1rem;
-    border-radius: 50%;
-    color: white;
+    left: 7.7rem;
 }
 
 .detail .view .been-there .box,
@@ -618,10 +556,7 @@ a.form-control:hover {
     cursor: default;
 }
 
-.btn-search-toggle:focus {
-    background-color: #fff;
-}
-
+.btn-search-toggle:focus,
 .btn-search-map-toggle:focus {
     background-color: #fff;
 }
@@ -639,7 +574,6 @@ a.form-control:hover {
 }
 
 .icheckbox_minimal-red.hover {
-    background-position: -20px 0px;
     border: none;
 }
 
@@ -658,14 +592,12 @@ a.form-control:hover {
 }
 
 .iradio_minimal-red.hover {
-    background-position: -120px 0px;
     border: none;
 }
 
 .iradio_minimal-red.checked.hover {
     background-position: -141px -1px;
     border: 1px solid #888;
-    border-radius: 50%;
 }
 
 .form-rating .star-rating .form-group {
@@ -730,11 +662,7 @@ a.form-control:hover {
     padding: 10px;
 }
 
-.detail .box .box-content .review-description {
-    line-height: 1.4;
-    margin: 0px 0px 5px;
-}
-
+.detail .box .box-content .review-description,
 .detail .box .box-content .my-review-description {
     line-height: 1.4;
     margin: 0px 0px 5px;
@@ -752,7 +680,7 @@ a.form-control:hover {
 
 .detail .view .nav.nav-tabs {
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     background: #fff;
 }
 
@@ -761,32 +689,22 @@ a.form-control:hover {
     border-right: 1px solid #ddd;
 }
 
-.detail .view .nav.nav-tabs li a {
+.detail .view .nav-tabs > li > a {
+    border: none;
+    border-radius: 0px;
+    color: #333;
+    margin-right: 0px;
     padding: 15px 25px;
     font-weight: bold;
 }
 
-.detail .view .nav-tabs > li > a {
-    border-radius: 0px;
-}
-
-.detail .view .nav-tabs > li.active > a,
-.detail .view .nav-tabs > li.active > a:focus,
-.detail .view .nav-tabs > li.active > a:hover {
-    color: #333;
-    background: none;
+.detail .view .nav-tabs > li > a:focus,
+.detail .view .nav-tabs > li > a:hover {
     border-bottom: 4px solid rgb(229, 38, 38);
 }
 
-.detail .view .nav-tabs > li > a {
-    border: none;
-    margin-right: 0px;
-}
-
-.detail .view .nav-tabs > li > a:focus,
-.detail .view .nav-tabs > li > a:hover {
-    color: #333;
-    border: none;
+.detail .view .nav-tabs > li.active > a {
+    background: none;
     border-bottom: 4px solid rgb(229, 38, 38);
 }
 
@@ -807,6 +725,27 @@ a.form-control:hover {
 
 .detail .view .tab-content .tab-pane {
     border: none;
+}
+
+.detail .user-comment-review {
+    margin-left: 70px;
+}
+
+.detail .rating-md {
+    font-size: 0;
+}
+
+.detail .rating-md > .rating-stars > .rating-input {
+    display: none;
+}
+
+.detail .rating-container .filled-stars {
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+}
+
+.detail .review-post .rating {
+    margin-top: 7px;
 }
 
 /*general - overlay & blueimp*/
@@ -907,6 +846,23 @@ a.form-control:hover {
     font-family: "Museo Sans Cyrl 300";
 }
 
+.popover-body.popover-content .rating-container .star {
+    font-size: 14px;
+}
+
+.popover-body.popover-content .rating-container .filled-stars {
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+}
+
+.popover-body.popover-content .rating-md {
+    font-size: 0;
+}
+
+.popover-body.popover-content .rating-md > .rating-stars > .rating-input {
+    display: none;
+}
+
 /*default box*/
 .default-box {
     padding: 20px;
@@ -933,15 +889,15 @@ a.form-control:hover {
     text-align: center;
 }
 
-.modal-open {
-    padding-right: 0px !important;
-}
-
 .modal:before {
     display: inline-block;
     vertical-align: middle;
     content: " ";
     height: 100%;
+}
+
+.modal-open {
+    padding-right: 0px !important;
 }
 
 .modal-dialog {
@@ -969,17 +925,14 @@ a.form-control:hover {
     opacity: 1;
 }
 
-#modal-product-category > .modal-dialog > .modal-content > .modal-body {
+#modal-product-category > .modal-dialog > .modal-content > .modal-body,
+#modal-report > .modal-dialog > .modal-content > .modal-body {
     overflow-y: auto;
 }
 
 #modal-product-category > .modal-dialog > .modal-content > .modal-body .product-list {
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-#modal-report > .modal-dialog > .modal-content > .modal-body {
-    overflow-y: auto;
 }
 
 /*general - pagination*/
@@ -996,21 +949,8 @@ a.form-control:hover {
     border: 1px solid #ddd;
 }
 
-.pagination > .active > a {
-    z-index: 3;
-    color: #fff;
-    cursor: default;
-    background-color: rgb(229, 38, 38);
-    border-color: rgb(229, 38, 38);
-}
-
+.pagination > .active > a,
 .pagination > .active > a:hover {
-    color: #fff;
-    background-color: rgb(229, 38, 38);
-    border-color: rgb(229, 38, 38);
-}
-
-.pagination > .active > a:focus {
     color: #fff;
     background-color: rgb(229, 38, 38);
     border-color: rgb(229, 38, 38);
@@ -1047,7 +987,7 @@ a.form-control:hover {
     width: 75px
 }
 
-/*Infowindow Map*/
+/*infowindow map*/
 .infowindow {
     width: 500px;
     max-height: 180px;
@@ -1067,7 +1007,8 @@ a.form-control:hover {
         font-size: 25px;
     }
 
-    .in-result .box.box-small h4 {
+    .in-result .box.box-small h4,
+    .in-result .box.box-small .widget .icon-list li.tag {
         font-size: 14px;
     }
 
@@ -1079,16 +1020,12 @@ a.form-control:hover {
         font-size: inherit;
     }
 
-    .in-result .box.box-small .widget .icon-list li.tag {
-        font-size: 14px;
+    .in-result .box .rating.rating-top {
+        margin-top: 5px;
     }
 
     .love {
         margin-right: 0px !important;
-        margin-top: 5px;
-    }
-
-    .in-result .box .rating.rating-top {
         margin-top: 5px;
     }
 
@@ -1101,16 +1038,8 @@ a.form-control:hover {
         line-height: 23px !important;
     }
 
-    .titan-title-size-2 {
-        font-size: 14px;
-    }
-
     .list-inline {
         font-size: 12px;
-    }
-
-    .detail.place-detail .view .tab-content .titan-caption {
-        margin: 86px 0;
     }
 
     .detail.place-detail .business-rating .rating {
@@ -1131,13 +1060,13 @@ a.form-control:hover {
         width: 35px;
     }
 
+    .detail.place-detail .widget-comments-body {
+        margin-left: 50px;
+    }
+
     .detail.place-detail .img-comment-thumb {
         width: 35px;
         height: 35px;
-    }
-
-    .detail.place-detail .widget-comments-body {
-        margin-left: 50px;
     }
 
     .detail.user-profile .user-post-container .widget-posts-image {
@@ -1194,21 +1123,32 @@ a.form-control:hover {
         font: 400 13px/1.8 "Museo Sans Cyrl 300", sans-serif !important;
     }
 
+    .detail .view .nav-tabs .badge {
+        width: 1.7rem;
+        height: 1.7rem;
+        top: 0.6em;
+        left: 4.5rem;
+        font-size: 0.9rem;
+    }
+
+    .dropdown-menu > .active > a,
+    .dropdown-menu > .active > a:hover,
+    .dropdown-menu > .active > a:focus {
+        background-color: #e52626;
+    }
+
     .detail.place-detail .box .box-title h4 {
         font-size: 14px;
     }
 
-    .detail.user-profile .view .view-journey.nav.nav-tabs li a {
-        padding: 3px;
-        font-weight: normal;
+    .detail.place-detail .view .nav.nav-tabs > li > a,
+    .detail.user-profile .view .nav.nav-tabs > li > a {
+        padding: 10px 17px;
     }
 
-    .detail.user-profile .view .nav-tabs .badge {
-        width: 1.7rem;
-        height: 1.7rem;
-        top: 0.6em;
-        left: 3.6rem;
-        font-size: 0.9rem;
+    .detail.user-profile .view .view-journey.nav.nav-tabs > li > a {
+        padding: 3px;
+        font-weight: normal;
     }
 
     .detail.user-update-profile .profile-img-container {
@@ -1233,18 +1173,8 @@ a.form-control:hover {
         width: 20%;
     }
 
-    .detail .view .nav-tabs .badge {
-        width: 1.7rem;
-        height: 1.7rem;
-        top: 0.6em;
-        left: 4.5rem;
-        font-size: 0.9rem;
-    }
-
     .titan-title-tagline {
-        color: #fff;
         font-size: 18px;
-        font-weight: 700;
     }
 
     .infowindow {
@@ -1263,7 +1193,10 @@ a.form-control:hover {
         height: 250px !important;
     }
 
-    #modal-product-category > .modal-dialog {
+    #modal-product-category > .modal-dialog,
+    #modal-price > .modal-dialog,
+    #modal-region > .modal-dialog,
+    #modal-report > .modal-dialog {
         width: 90%;
     }
 
@@ -1271,20 +1204,8 @@ a.form-control:hover {
         height: calc(100vh - 125px);
     }
 
-    #modal-price > .modal-dialog {
-        width: 90%;
-    }
-
-    #modal-region > .modal-dialog {
-        width: 90%;
-    }
-
     #modal-region > .modal-dialog > .modal-content > .modal-body {
         height: calc(100vh - 232px);
-    }
-
-    #modal-report > .modal-dialog {
-        width: 90%;
     }
 
     #modal-report > .modal-dialog > .modal-content > .modal-body {
@@ -1299,61 +1220,35 @@ a.form-control:hover {
         overflow-x: hidden;
     }
 
+    .titan-title-tagline {
+        color: #fff;
+    }
+
+    .navbar-custom .dropdown-menu .widget,
     .in-result .box .widget,
     .view .widget,
-    .place-detail .widget {
-        margin-bottom: 0px;
-    }
-
-    .place-detail .view .nav.nav-tabs li a {
-        padding: 10px 17px;
-    }
-
-    .navbar-custom .dropdown-menu .widget {
-        margin-bottom: 0px;
-    }
-
-    .dropdown-menu > .active > a,
-    .dropdown-menu > .active > a:hover,
-    .dropdown-menu > .active > a:focus {
-        background-color: #e52626;
-    }
-
+    .place-detail .widget,
+    .popover-body.popover-content .widget,
     .detail.user-profile .widget {
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
 
-    .detail.user-profile .view .nav.nav-tabs li a {
-        padding: 10px 7px;
+    .detail .view .nav-tabs .badge {
+        top: 1.3rem;
     }
 
-    .detail.user-profile .user-post-container .widget-posts-image {
-        float: left;
-        width: 45px;
-        margin-right: 10px;
+    .detail.place-detail .view .nav-tabs .badge.total-review,
+    .detail.place-detail .view .nav-tabs .badge.total-photo,
+    .detail.user-profile .view .nav-tabs .badge.total-user-photo {
+        left: 5.4rem;
     }
 
-    .detail.user-profile .user-post-container .widget-posts-body {
-        margin-left: 50px;
-        padding-top: 0;
+    .detail.user-profile .view .nav-tabs .badge.total-saved-search {
+        left: 8rem;
     }
 
-    .detail.user-profile .widget-comments-image {
-        float: left;
-        width: 35px;
-    }
-
-    .detail.user-profile .img-comment-thumb {
-        width: 35px;
-        height: 35px;
-    }
-
-    .detail.user-profile .widget-comments-body {
-        margin-left: 50px;
-    }
-
-    .widget.star-rating {
-        margin: 0;
+    .detail.user-profile .view .nav-tabs .badge.total-new-promo {
+        left: 7.5rem;
     }
 }
 
@@ -1363,10 +1258,7 @@ a.form-control:hover {
         font: 400 17px/1.8 "Museo Sans Cyrl 300", sans-serif !important;
     }
 
-    .visible-xs {
-        display: none !important;
-    }
-
+    .visible-xs,
     .visible-xs-inline-block {
         display: none !important;
     }
@@ -1470,36 +1362,21 @@ a.form-control:hover {
         line-height: 32px !important;
     }
 
-    .titan-title-size-2 {
-        font-size: 16px;
-    }
-
     .titan-title-tagline {
-        color: #fff;
         font-size: 26px;
-        font-weight: 700;
-    }
-
-    .detail.place-detail .view .tab-content .titan-caption {
-        margin: 155px 0;
     }
 
     .detail.place-detail .business-rating .rating {
         margin-left: 140px;
     }
 
+    .detail.place-detail .view .nav.nav-tabs > li > a,
+    .detail.user-profile .view .nav.nav-tabs > li > a {
+        padding: 17px;
+    }
+
     .container-map-detail {
         height: 800px;
-    }
-
-    .popover-search {
-        top: 95px !important;
-        min-width: 80% !important;
-        left: 10% !important;
-    }
-
-    .popover-search .arrow {
-        left: 80% !important;
     }
 
     .works-grid-4 .work-item {
@@ -1516,38 +1393,6 @@ a.form-control:hover {
         font-size: 14px;
     }
 
-    .detail.user-profile .view .nav-tabs .badge {
-        width: 2rem;
-        height: 2rem;
-        top: 0.6em;
-        left: 4.8rem;
-        font-size: 1rem;
-    }
-
-    .detail.user-profile .view .nav-tabs .badge.total-new-promo {
-        width: 2rem;
-        height: 2rem;
-        top: 0.6em;
-        left: 7.2rem;
-        font-size: 1rem;
-    }
-
-    .detail.user-profile .view .nav-tabs .badge.total-saved-search {
-        width: 2rem;
-        height: 2rem;
-        top: 0.6em;
-        left: 7.6rem;
-        font-size: 1rem;
-    }
-
-    .detail .view .nav-tabs .badge {
-        width: 2rem;
-        height: 2rem;
-        top: 0.6em;
-        left: 5.2rem;
-        font-size: 1rem;
-    }
-
     .infowindow {
         width: 250px;
     }
@@ -1556,7 +1401,10 @@ a.form-control:hover {
         margin: 0;
     }
 
-    #modal-product-category > .modal-dialog {
+    #modal-product-category > .modal-dialog,
+    #modal-price > .modal-dialog,
+    #modal-region > .modal-dialog,
+    #modal-report > .modal-dialog {
         width: 80%;
     }
 
@@ -1564,20 +1412,8 @@ a.form-control:hover {
         height: calc(100vh - 200px);
     }
 
-    #modal-price > .modal-dialog {
-        width: 80%;
-    }
-
-    #modal-region > .modal-dialog {
-        width: 80%;
-    }
-
     #modal-region > .modal-dialog > .modal-content > .modal-body {
         height: calc(100vh - 320px);
-    }
-
-    #modal-report > .modal-dialog {
-        width: 80%;
     }
 }
 
@@ -1586,8 +1422,6 @@ a.form-control:hover {
 
     .navbar-transparent {
         background: transparent;
-        padding-bottom: 15px;
-        padding-top: 15px;
     }
 
     .search-field-box-placeholder {
@@ -1610,24 +1444,26 @@ a.form-control:hover {
         width: 25%;
     }
 
-    #modal-product-category > .modal-dialog {
+    #modal-product-category > .modal-dialog,
+    #modal-region > .modal-dialog {
         width: 80%;
-    }
-
-    #modal-product-category > .modal-dialog > .modal-content > .modal-body {
-        height: calc(100vh - 200px);
     }
 
     #modal-price > .modal-dialog {
         width: 60%;
     }
 
-    #modal-region > .modal-dialog {
-        width: 80%;
+    #modal-product-category > .modal-dialog > .modal-content > .modal-body {
+        height: calc(100vh - 200px);
     }
 
     #modal-region > .modal-dialog > .modal-content > .modal-body {
         height: calc(100vh - 280px);
+    }
+
+    #modal-price .btn-price-confirm,
+    #modal-region .btn-coordinate-confirm {
+        padding: 7px 10px;
     }
 }
 
@@ -1648,15 +1484,6 @@ a.form-control:hover {
 
     .titan-title-tagline {
         font-size: 28px;
-        font-weight: 700;
-    }
-
-    #modal-price .btn-price-confirm {
-        padding: 7px 10px;
-    }
-
-    #modal-region .btn-coordinate-confirm {
-        padding: 7px 10px;
     }
 }
 
@@ -1672,20 +1499,17 @@ a.form-control:hover {
         height: 425px;
     }
 
-    #modal-product-category > .modal-dialog {
+    #modal-product-category > .modal-dialog,
+    #modal-region > .modal-dialog {
         width: 70%;
-    }
-
-    #modal-product-category > .modal-dialog > .modal-content > .modal-body {
-        height: calc(100vh - 120px);
     }
 
     #modal-price > .modal-dialog {
         width: 60%;
     }
 
-    #modal-region > .modal-dialog {
-        width: 70%;
+    #modal-product-category > .modal-dialog > .modal-content > .modal-body {
+        height: calc(100vh - 120px);
     }
 
     #modal-region > .modal-dialog > .modal-content > .modal-body {
@@ -1695,71 +1519,52 @@ a.form-control:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .popover-search .arrow {
-        left: 47% !important;
-    }
-
     .visible-md {
         display: block !important;
     }
 
-    #modal-price .btn-price-confirm {
-        padding: 7px 10px;
-    }
-
-    #modal-region .btn-coordinate-confirm {
-        padding: 7px 10px;
+    .popover-search .arrow {
+        left: 47% !important;
     }
 }
 
 /*lg*/
 @media (min-width: 1200px) {
 
-    .box.user {
-        height : 257px;
+    .visible-lg {
+        display: block !important;
     }
 
     .popover-search .arrow {
         left: 40% !important;
     }
 
-    .visible-lg {
-        display: block !important;
-    }
-
     .search-box {
         padding: 36px 43px 18px;
+    }
+
+    .box.user {
+        height : 257px;
     }
 
     .container-map-detail {
         height: 460px;
     }
 
-    #modal-product-category > .modal-dialog {
+    #modal-product-category > .modal-dialog,
+    #modal-region > .modal-dialog {
         width: 60%;
-    }
-
-    #modal-product-category > .modal-dialog > .modal-content > .modal-body {
-        height: calc(100vh - 120px);
     }
 
     #modal-price > .modal-dialog {
         width: 40%;
     }
 
-    #modal-region > .modal-dialog {
-        width: 60%;
+    #modal-product-category > .modal-dialog > .modal-content > .modal-body {
+        height: calc(100vh - 120px);
     }
 
     #modal-region > .modal-dialog > .modal-content > .modal-body {
         height: calc(100vh - 200px);
-    }
-
-    #modal-price .btn-price-confirm {
-        padding: 7px 10px;
-    }
-
-    #modal-region .btn-coordinate-confirm {
-        padding: 7px 10px;
     }
 }
