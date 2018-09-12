@@ -324,6 +324,10 @@
     margin-top: 5px;
 }
 
+.box.user {
+    height : 260px;
+}
+
 .detail.user-profile .widget-posts-image {
     width: 160px;
     margin-right: 20px;
@@ -1687,10 +1691,6 @@ a.form-control:hover {
 
     .search-box {
         padding: 36px 43px 18px;
-    }
-
-    .box.user {
-        height : 257px;
     }
 
     .container-map-detail {
