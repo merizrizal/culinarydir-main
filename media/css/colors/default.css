@@ -777,6 +777,7 @@ a.form-control:hover {
 }
 
 .detail .box .box-content .review-description,
+.detail .box .box-content .comment-description,
 .detail .box .box-content .my-review-description {
     line-height: 1.4;
     margin: 0px 0px 5px;
