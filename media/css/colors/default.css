@@ -35,6 +35,13 @@
 }
 
 /*home*/
+.home-section.bg-dark {
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 .detail .view .recent-post .box {
     padding: 0px;
     height: 440px;
