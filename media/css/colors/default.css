@@ -79,10 +79,6 @@
     -webkit-text-stroke: 0;
     text-shadow: none;
 }
-.buttons,
-.business-name {
-    padding-left: 5.5px;
-}
 
 .container .view .recent-post .rating .pt-10 {
     padding-top: 3px !important;
@@ -340,6 +336,11 @@
     margin-right: 20px;
 }
 
+.detail.user-profile .widget-posts-image.business-image {
+    width: 60px;
+    margin-right: 0px;
+}
+
 .detail.user-profile .img-profile-thumb {
     width: 160px;
     height: 160px;
@@ -347,6 +348,10 @@
 
 .detail.user-profile .widget .widget-posts-body {
     padding-top: 10px;
+}
+
+.detail.user-profile .widget .business-review {
+    padding-top: 0px;
 }
 
 .detail.user-profile .widget .widget-posts-body h3 {
