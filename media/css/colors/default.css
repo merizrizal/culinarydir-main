@@ -322,6 +322,11 @@
     margin-top: 7px;
 }
 
+.detail.place-detail .promo-title {
+   	margin-top: 0px;
+   	margin-bottom: 0px;
+}
+
 /*user profile*/
 .widget .heart-rating {
     margin-top: 5px;
@@ -1199,6 +1204,10 @@ a.form-control:hover {
     .detail.place-detail .img-comment-thumb {
         width: 35px;
         height: 35px;
+    }
+    
+    .detail.place-detail .promo-title {
+    	margin-top: 10px;
     }
 
     .detail.user-profile .user-post-container .widget-posts-image {
