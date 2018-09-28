@@ -968,6 +968,11 @@ a.form-control:hover {
     border-radius: 2px;
 }
 
+.krajee-default.file-preview-frame .kv-file-content {
+	width: 100px;
+	height: 100px;
+}
+
 /*popover*/
 .popover {
     font-family: "Museo Sans Cyrl 300";
