@@ -328,7 +328,7 @@
 }
 
 .box.user {
-    height : 260px;
+    height: 260px;
 }
 
 .detail.user-profile .widget-posts-image {
@@ -1180,10 +1180,6 @@ a.form-control:hover {
     .detail.place-detail .widget-posts-image {
         float: left;
         width: 45px;
-    }
-
-    .detail.place-detail .widget-posts-body {
-        margin-left: 50px;
     }
 
     .detail.place-detail .widget-comments-image {
