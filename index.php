@@ -1,6 +1,5 @@
 <?php
-defined('YII_DEBUG') or define('YII_DEBUG', true);
-defined('YII_ENV') or define('YII_ENV', 'dev');
+require(__DIR__ . '/environments/local-settings/env.php');
 	
 ini_set('max_execution_time', 0);
 ini_set('memory_limit', '1000M');
