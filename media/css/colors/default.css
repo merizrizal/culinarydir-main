@@ -1182,6 +1182,10 @@ a.form-control:hover {
     .list-inline {
         font-size: 12px;
     }
+    
+    .detail .view .recent-post .box {
+	    height: 400px;
+	}
 
     .detail.place-detail .business-rating .rating {
         margin-left: 16px;
