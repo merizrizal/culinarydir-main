@@ -269,12 +269,19 @@
 }
 
 .in-result .result-list a.popover-tag:hover,
-.in-result .result-list a.popover-tag:focus {
+.in-result .result-map a.popover-tag:hover,
+.in-result .result-list a.popover-tag:focus,
+.in-result .result-map a.popover-tag:focus {
     color: #111;
 }
 
-.in-result .result-list .widget .icon-list li a::before {
+.in-result .result-list .widget .icon-list li a::before,
+.in-result .result-map .widget .icon-list li a::before {
     content: none;
+}
+
+.in-result .result-map .box {
+	border-radius: 0;
 }
 
 /*place detail*/
