@@ -359,6 +359,10 @@
     padding-top: 10px;
 }
 
+.detail.user-profile .widget .widget-posts-body.user-profile-identity {
+    padding-top: 30px;
+}
+
 .detail.user-profile .widget .business-review {
     padding-top: 0px;
 }
@@ -1304,6 +1308,10 @@ a.form-control:hover {
     .detail.user-profile .view .nav.nav-tabs > li > a {
         padding: 10px 17px;
     }
+    
+    .detail.user-profile .user-profile-header {
+		margin-bottom: 0px !important;
+	}
 
     .detail.user-profile .view .view-journey.nav.nav-tabs > li > a {
         padding: 3px;
