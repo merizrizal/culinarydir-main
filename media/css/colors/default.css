@@ -181,6 +181,27 @@
     color: #888;
 }
 
+.search-box .search-label {
+    color: #444 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 7px 12px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.search-box .search-label:hover {
+    color: #000 !important;
+}
+
+.search-box .search-label.more-option {
+	padding: 0;
+	text-transform: none;
+	font-size: 13px;
+}
+
 .search-box .search-field-box-clear {
     position: absolute;
     color: #000;
@@ -245,6 +266,15 @@
 
 .in-result .direct-link {
     cursor: pointer;
+}
+
+.in-result .result-list a.popover-tag:hover,
+.in-result .result-list a.popover-tag:focus {
+    color: #111;
+}
+
+.in-result .result-list .widget .icon-list li a::before {
+    content: none;
 }
 
 /*place detail*/
@@ -964,6 +994,14 @@ a.form-control:hover {
 .select2-container--krajee .select2-dropdown {
     box-shadow: none;
     border-color: #555;
+}
+
+.select2-container--krajee .select2-results > .select2-results__options {
+    max-height: 210px;
+}
+
+.select2-container--krajee li.select2-results__option {
+    padding: 2px 6px;
 }
 
 .select2-container--krajee li.select2-results__option:hover {
