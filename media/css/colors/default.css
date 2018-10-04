@@ -9,6 +9,10 @@
     font-size: 12px;
 }
 
+.navbar-custom .dropdown-menu .widget-posts-body {
+	margin-right: 15px;
+}	
+
 .navbar-custom .dropdown-menu .widget-posts-image {
     width: 40px;
 }
