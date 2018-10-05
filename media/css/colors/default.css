@@ -459,7 +459,7 @@
 }
 
 .detail.user-profile .view .nav-tabs .badge.total-saved-search {
-    left: 8rem;
+    left: 8.4rem;
 }
 
 .detail.user-profile .view .nav-tabs .badge.total-new-promo {
@@ -1442,6 +1442,11 @@ a.form-control:hover {
 
     .place-detail .view .nav.nav-tabs li a {
         padding: 10px 17px;
+    }
+    
+    .place-detail .view .nav.nav-tabs li a h6 {
+        margin-top: 5px;
+        margin-bottom : 5px;
     }
 
     .navbar-custom .dropdown-menu .widget {
