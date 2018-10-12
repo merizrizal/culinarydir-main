@@ -342,10 +342,6 @@
     top: -1px;
 }
 
-.detail.place-detail .user-comment-review {
-    margin-left: 70px;
-}
-
 .detail.place-detail .rating-md {
     font-size: 0;
 }
@@ -502,10 +498,6 @@
     margin-left: 70px;
 }
 
-.detail.review .user-comment-review {
-    margin-left: 70px;
-}
-
 .detail.review .review-container .rating {
     margin-top: 7px;
 }
@@ -516,10 +508,6 @@
 }
 
 .detail.photo .widget .widget-posts-body {
-    margin-left: 70px;
-}
-
-.detail.photo .user-comment-review {
     margin-left: 70px;
 }
 
@@ -1249,16 +1237,25 @@ a.form-control:hover {
         width: 45px;
     }
 
-    .detail.place-detail .widget-comments-image {
+    .detail.place-detail .widget-comments-image,
+    .detail.user-profile .widget-comments-image,
+    .detail.review .widget-comments-image,
+    .detail.photo .widget-comments-image {
         float: left;
         width: 35px;
     }
 
-    .detail.place-detail .widget-comments-body {
+    .detail.place-detail .widget-comments-body,
+    .detail.user-profile .widget-comments-body,
+    .detail.review .widget-comments-body,
+    .detail.photo .widget-comments-body {
         margin-left: 50px;
     }
 
-    .detail.place-detail .img-comment-thumb {
+    .detail.place-detail .img-comment-thumb,
+    .detail.user-profile .img-comment-thumb,
+    .detail.review .img-comment-thumb,
+    .detail.photo .img-comment-thumb {
         width: 35px;
         height: 35px;
     }
@@ -1276,20 +1273,6 @@ a.form-control:hover {
     .detail.user-profile .user-post-container .widget-posts-body {
         margin-left: 50px;
         padding-top: 0;
-    }
-
-    .detail.user-profile .widget-comments-image {
-        float: left;
-        width: 35px;
-    }
-
-    .detail.user-profile .img-comment-thumb {
-        width: 35px;
-        height: 35px;
-    }
-
-    .detail.user-profile .widget-comments-body {
-        margin-left: 50px;
     }
 
     .detail.user-profile .img-user-profile-love {
