@@ -1384,7 +1384,7 @@ a.form-control:hover {
         font-size: 14px;
     }
 
-    #result-map {
+    .module-small-map.bg-main #maps {
         height: 250px !important;
     }
 
