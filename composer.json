@@ -31,7 +31,6 @@
         "kartik-v/yii2-widget-rating": "*",
         "kartik-v/yii2-widget-growl": "*",
         "kartik-v/yii2-widget-touchspin": "*",
-	"kartik-v/yii2-money": "@dev",
 	"kartik-v/yii2-mpdf": "@dev",
         "kartik-v/yii2-field-range": "*",
         "kartik-v/yii2-popover-x": "*",
