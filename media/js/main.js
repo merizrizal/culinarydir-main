@@ -12,11 +12,6 @@ console.log('%c Mau makan asik, Ya Asikmakan.com ', 'background: rgb(229, 38, 38
         $(this).attr('src', 'assets/images/pictureload.png');
     });
 
-    $(window).on('load', function() {
-        $('.loader').fadeOut();
-        $('.page-loader').delay(350).fadeOut('slow');
-    });
-
     $(document).ready(function() {
 
         $('img.img-component').each(function(index) {
