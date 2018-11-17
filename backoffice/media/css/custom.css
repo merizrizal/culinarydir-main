@@ -179,13 +179,6 @@
   width: 100%;
   position: relative;
 }
-.table-contact-person {
-	width: 100%;
-    margin-bottom: 30px;
-}
-.table-contact-person-th, .table-contact-person-td {
-	padding: 10px;
-}
 
 @media (min-width: 480px) {
   .nav_menu {
