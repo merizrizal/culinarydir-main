@@ -779,6 +779,10 @@ a.form-control:hover {
     font-weight: 700;
 }
 
+.file-drop-zone-title {
+    padding: 0;
+}
+
 /*general - icon*/
 .icon-rupiah {
     display: inline-block;
