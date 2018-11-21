@@ -34,6 +34,11 @@
     padding: 5px 15px;
 }
 
+.navbar-brand img {
+    height: 30px;
+    margin-top: 5px;
+}
+
 .navbar-up {
     top: -50px;
 }
@@ -1558,6 +1563,21 @@ a.form-control:hover {
     .col-tab-1 {
         width: 8.33333333%;
     }
+    
+    .navbar-custom,
+    .navbar-custom .dropdown-menu {
+    	font-size: 14px;
+    }
+    
+    .navbar-brand img {
+	    height: 44px;
+	    margin-top: 2px;
+	}
+    
+    .navbar-toggle .icon-bar {
+	    width: 30px;
+	    height: 4px;
+	}
 
     .in-result .box.box-small h2 {
         font-size: 45px;
