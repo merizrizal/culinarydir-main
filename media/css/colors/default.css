@@ -1311,6 +1311,10 @@ a.form-control:hover {
     .detail.user-profile .view .nav-tabs .badge.total-user-photo {
         left: 4.5rem !important;
     }
+    
+    .detail .view .recent-post .box {
+    	height: 410px;
+    }
 }
 
 @media (max-width: 599px) {
@@ -1642,6 +1646,10 @@ a.form-control:hover {
     #modal-region > .modal-dialog > .modal-content > .modal-body {
         height: calc(100vh - 320px);
     }
+    
+    .detail .view .recent-post .box {
+    	height: 480px;
+    }
 }
 
 /*sm*/
@@ -1691,6 +1699,10 @@ a.form-control:hover {
     #modal-price .btn-price-confirm,
     #modal-region .btn-coordinate-confirm {
         padding: 7px 10px;
+    }
+    
+    .detail .view .recent-post .box {
+    	height: 450px;
     }
 }
 
