@@ -1578,6 +1578,10 @@ a.form-control:hover {
 	    width: 30px;
 	    height: 4px;
 	}
+	
+	.navbar-up {
+	    top: -56px;
+	}
 
     .in-result .box.box-small h2 {
         font-size: 45px;
