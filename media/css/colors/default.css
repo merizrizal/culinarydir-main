@@ -925,7 +925,8 @@ a.form-control:hover {
 
 /*general - overlay & blueimp*/
 .overlay,
-.loading-img {
+.loading-img,
+.loading-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -940,6 +941,16 @@ a.form-control:hover {
 .loading-img {
     z-index: 1020;
     background: transparent url('../../img/ajax-loader1.gif') 50% 50% no-repeat;
+}
+
+.loading-text {
+    z-index: 1020;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.loading-text:before {
+    content: "Loading...";
 }
 
 .blueimp-gallery-carousel {
