@@ -468,31 +468,18 @@
     left: 7.7rem;
 }
 
-.detail .view .been-there .box,
-.detail .view .love-place .box,
-.detail .view .saved-search .box,
-.detail .view .new-promo .box {
+.detail.user-profile .view .been-there .box,
+.detail.user-profile .view .love-place .box,
+.detail.user-profile .view .saved-search .box,
+.detail.user-profile .view .new-promo .box {
     padding: 0px;
 }
 
-.detail .view .been-there .box .short-desc,
-.detail .view .love-place .box .short-desc,
-.detail .view .saved-search .box .short-desc,
-.detail .view .new-promo .short-desc {
+.detail.user-profile .view .been-there .box .short-desc,
+.detail.user-profile .view .love-place .box .short-desc,
+.detail.user-profile .view .saved-search .box .short-desc,
+.detail.user-profile .view .new-promo .short-desc {
     padding: 10px;
-}
-
-.detail .view .been-there .box .short-desc h4,
-.detail .view .love-place .box .short-desc h4,
-.detail .view .new-promo .short-desc h4 {
-    font-size: 12px;
-    letter-spacing: 1px;
-}
-
-.detail .view .saved-search .box .short-desc h4 {
-    font-size: 15px;
-    font-weight: normal;
-    letter-spacing: 1px;
 }
 
 /*review*/
