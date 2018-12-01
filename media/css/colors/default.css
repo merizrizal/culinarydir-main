@@ -71,6 +71,10 @@
     padding: 10px 10px;
 }
 
+.recent-post .box .post .post-header h5 {
+    font-size: 15px;
+}
+
 .post-header .rating-container .rating-stars {
     cursor: auto;
 }
