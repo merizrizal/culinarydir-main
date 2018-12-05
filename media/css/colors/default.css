@@ -464,14 +464,6 @@
     height: 50px;
 }
 
-.detail.user-profile .view .nav-tabs .badge.total-saved-search {
-    left: 8.4rem;
-}
-
-.detail.user-profile .view .nav-tabs .badge.total-new-promo {
-    left: 7.7rem;
-}
-
 .detail.user-profile .view .been-there .box,
 .detail.user-profile .view .love-place .box,
 .detail.user-profile .view .saved-search .box,
@@ -881,12 +873,28 @@ a.form-control:hover {
     width: 2rem;
     height: 2rem;
     top: 1rem;
-    left: 5.8rem;
     text-align: center;
     line-height: 15px;
     font-size: 1rem;
     border-radius: 50%;
     color: white;
+}
+
+.detail.place-detail .view .nav-tabs .badge.total-review {
+    left: 5.8rem;
+}
+
+.detail.place-detail .view .nav-tabs .badge.total-photo,
+.detail.user-profile .view .nav-tabs .badge.total-user-photo {
+    left: 5.5rem;
+}
+
+.detail.user-profile .view .nav-tabs .badge.total-order-history {
+    left: 9.7rem;
+}
+
+.detail.user-profile .view .nav-tabs .badge.total-new-promo {
+    left: 7.9rem;
 }
 
 .detail .view .tab-content .tab-pane {
@@ -1308,16 +1316,6 @@ a.form-control:hover {
     .work-caption {
         padding: 0;
     }
-
-    .detail .view .nav-tabs .badge {
-        top: 0.6rem !important;
-    }
-
-    .detail.place-detail .view .nav-tabs .badge.total-review,
-    .detail.place-detail .view .nav-tabs .badge.total-photo,
-    .detail.user-profile .view .nav-tabs .badge.total-user-photo {
-        left: 4.5rem !important;
-    }
     
     .detail .view .recent-post .box {
     	height: 427px;
@@ -1334,8 +1332,15 @@ a.form-control:hover {
         width: 1.7rem;
         height: 1.7rem;
         top: 0.6em;
-        left: 4.5rem;
         font-size: 0.9rem;
+    }
+    
+    .detail.place-detail .view .nav-tabs .badge.total-review {
+        left: 4.5rem;
+    }
+    
+    .detail.user-profile .view .nav-tabs .badge.total-user-photo {
+        left: 4.3rem;
     }
 
     .dropdown-menu > .active > a,
@@ -1469,24 +1474,6 @@ a.form-control:hover {
     .popover-body.popover-content .widget,
     .detail.user-profile .widget {
         margin-bottom: 0px;
-    }
-
-    .detail .view .nav-tabs .badge {
-        top: 1.3rem;
-    }
-
-    .detail.place-detail .view .nav-tabs .badge.total-review,
-    .detail.place-detail .view .nav-tabs .badge.total-photo,
-    .detail.user-profile .view .nav-tabs .badge.total-user-photo {
-        left: 5.4rem;
-    }
-
-    .detail.user-profile .view .nav-tabs .badge.total-saved-search {
-        left: 8rem;
-    }
-
-    .detail.user-profile .view .nav-tabs .badge.total-new-promo {
-        left: 7.5rem;
     }
     
     .btn-xs {
@@ -1633,7 +1620,7 @@ a.form-control:hover {
 
     .detail.place-detail .view .nav.nav-tabs > li > a,
     .detail.user-profile .view .nav.nav-tabs > li > a {
-        padding: 17px;
+        padding: 15px;
     }
 
     .container-map-detail {
@@ -1653,6 +1640,31 @@ a.form-control:hover {
     .detail .view .new-promo .box .short-desc h4{
         font-size: 14px;
     }
+    
+    .detail .view .nav-tabs .badge {
+        top: 1rem;
+    }
+
+    .detail.place-detail .view .nav-tabs .badge.total-review {
+    	left: 5.4rem;
+	}
+	
+	.detail.place-detail .view .nav-tabs .badge.total-photo,
+	.detail.user-profile .view .nav-tabs .badge.total-user-photo {
+	    left: 4.9rem;
+	}
+	
+	.detail.user-profile .view .nav-tabs .badge.total-order-history {
+	    left: 9.4rem;
+	}
+	
+	.detail.user-profile .view .nav-tabs .badge.total-new-promo {
+	    left: 7.4rem;
+	}
+    
+    .detail.user-profile .user-profile-header {
+		margin-bottom: 0px !important;
+	}
 
     .infowindow {
         width: 250px;
