@@ -1479,6 +1479,10 @@ a.form-control:hover {
     .btn-xs {
     	padding: 4px 14px !important;
     }
+    
+    .input-group-sm > .input-group-btn > .btn {
+    	padding: 5px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
