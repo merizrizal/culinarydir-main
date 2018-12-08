@@ -1480,8 +1480,8 @@ a.form-control:hover {
     	padding: 4px 14px !important;
     }
     
-    .input-group-sm > .input-group-btn > .btn {
-    	padding: 5px;
+    .input-group-sm.bootstrap-touchspin > .input-group-btn > .btn {
+    	padding: 5px 6px;
     }
 }
 
