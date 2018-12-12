@@ -393,6 +393,10 @@
     margin-right: 0px;
 }
 
+.detail.user-profile .widget-posts-image.image-order-history {
+    width: 75px;
+}
+
 .detail.user-profile .img-profile-thumb {
     width: 160px;
     height: 160px;
@@ -476,6 +480,10 @@
 .detail.user-profile .view .saved-search .box .short-desc,
 .detail.user-profile .view .new-promo .short-desc {
     padding: 10px;
+}
+
+.detail.user-profile .view .order-history-container {
+	padding-left: 15px;
 }
 
 /*review*/
@@ -1668,6 +1676,10 @@ a.form-control:hover {
     
     .detail.user-profile .user-profile-header {
 		margin-bottom: 0px !important;
+	}
+	
+	.detail.user-profile .widget-posts-image.image-order-history {
+    	width: 88px;
 	}
 
     .infowindow {
