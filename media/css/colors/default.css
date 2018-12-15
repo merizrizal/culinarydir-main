@@ -43,6 +43,12 @@
     top: -50px;
 }
 
+.nav-tabs-fixed {
+	position: fixed;
+	top: 0;
+	z-index: 1300;
+}
+
 /*home*/
 .home-section.bg-dark {
 	background-color: #fff;
@@ -930,7 +936,7 @@ a.form-control:hover {
     padding: 0;
 }
 
-.detail.menu-list .view.menu-header .nav.nav-tabs {
+.detail.menu-list .view .nav.nav-tabs {
 	border-width: 1px 0px;
     border-radius: 0px;
 }
