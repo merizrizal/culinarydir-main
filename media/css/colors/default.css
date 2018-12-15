@@ -926,6 +926,15 @@ a.form-control:hover {
     margin-top: 7px;
 }
 
+.detail.menu-list .box {
+    padding: 0;
+}
+
+.detail.menu-list .view.menu-header .nav.nav-tabs {
+	border-width: 1px 0px;
+    border-radius: 0px;
+}
+
 /*general - overlay & blueimp*/
 .overlay,
 .loading-img,
