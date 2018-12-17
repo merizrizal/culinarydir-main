@@ -941,6 +941,11 @@ a.form-control:hover {
     border-radius: 0px;
 }
 
+.detail.menu-list .view .product-category-shortcut {
+	max-height: 200px;
+	overflow-y: scroll;
+}
+
 /*general - overlay & blueimp*/
 .overlay,
 .loading-img,
