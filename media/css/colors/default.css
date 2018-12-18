@@ -49,6 +49,14 @@
 	z-index: 1300;
 }
 
+.nav-tabs-up {
+	top: 50px;
+}
+
+.stick + .box-content {
+	padding-top: 70px !important;
+}
+
 /*home*/
 .home-section.bg-dark {
 	background-color: #fff;
@@ -936,14 +944,28 @@ a.form-control:hover {
     padding: 0;
 }
 
-.detail.menu-list .view .nav.nav-tabs {
+.detail.menu-list .box .box-content {
+    padding: 10px 15px;
+}
+
+.detail.menu-list .nav-menu .nav.nav-tabs {
 	border-width: 1px 0px;
     border-radius: 0px;
 }
 
-.detail.menu-list .view .product-category-shortcut {
+.detail.menu-list .nav-menu .nav.nav-tabs .dropdown-menu > li > a {
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.detail.menu-list .nav-menu .nav.nav-tabs .dropdown-menu > li > a:hover {
+    background-color: #e52626;
+    color: #fff;
+}
+
+.detail.menu-list .nav-menu .product-category-shortcut {
 	max-height: 200px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 /*general - overlay & blueimp*/
