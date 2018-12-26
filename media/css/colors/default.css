@@ -98,7 +98,8 @@
     cursor: pointer;
 }
 
-.detail .recent-post .rating-md {
+.detail .recent-post .rating-md,
+.detail.review .rating-md {
     font-size: 1.2em;
     box-shadow: none;
 }
@@ -833,7 +834,6 @@ a.form-control:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 0 5px;
-    overflow: hidden;
 }
 
 .detail .box .box-title,
@@ -1512,6 +1512,10 @@ a.form-control:hover {
     .dropdown-menu > .active > a:hover,
     .dropdown-menu > .active > a:focus {
         background-color: #e52626;
+    }
+    
+    .place-detail .view .dropdown-menu.review-btn > li > a {
+    	padding: 10px 17px;
     }
 
     .titan-title-tagline {
