@@ -620,6 +620,10 @@
     padding: 0px 10px;
 }
 
+.link-icon.list-inline.tab-detail > li {
+    padding: 0px 5px;
+}
+
 .link-icon.list-inline > li:not(:last-child) {
 
 }
@@ -1524,7 +1528,7 @@ a.form-control:hover {
     }
     
     .btn-xs {
-    	padding: 4px 14px !important;
+    	padding: 4px 8px !important;
     }
     
     .input-group-sm.bootstrap-touchspin > .input-group-btn > .btn {
