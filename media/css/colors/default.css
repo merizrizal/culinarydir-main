@@ -391,9 +391,12 @@
 }
 
 /*user profile*/
-.detail.user-profile .box.user,
 .detail.user-profile .box.user-love {
-    height: 260px;
+    min-height: 280px;
+}
+
+.detail.user-profile .box.user {
+    min-height: 270px;
 }
 
 .detail.user-profile .widget-posts-image {
@@ -1400,10 +1403,6 @@ a.form-control:hover {
         padding: 3px;
         font-weight: normal;
     }
-    
-    .detail.user-profile .box.user-love {
-	    height: 278px;
-	}
 
     .detail.user-update-profile .profile-img-container {
         position: relative !important;
@@ -1501,8 +1500,8 @@ a.form-control:hover {
         background-color: #e52626;
     }
     
-    .place-detail .view .dropdown-menu.review-btn > li > a, 
-    .detail.user-profile .view .dropdown-menu.review-btn >li > a {
+    .detail.place-detail .view .dropdown-menu.review-btn > li > a, 
+    .detail.user-profile .view .dropdown-menu.review-btn > li > a {
     	padding: 10px 17px;
     }
 
@@ -1718,7 +1717,11 @@ a.form-control:hover {
 	}
 	
 	.detail.user-profile .box.user-love {
-	    height: 270px;
+	    min-height: 310px;
+	}
+	
+	.detail.user-profile .box.user {
+	    min-height: 300px;
 	}
 
     .infowindow {
@@ -1823,7 +1826,11 @@ a.form-control:hover {
     }
     
     .detail.user-profile .box.user-love {
-	    height: 274px;
+	    min-height: 310px;
+	}
+	
+	.detail.user-profile .box.user {
+	    min-height: 300px;
 	}
 }
 
@@ -1868,7 +1875,11 @@ a.form-control:hover {
     }
     
     .detail.user-profile .box.user-love {
-	    height: 279px;
+	    min-height: 320px;
+	}
+	
+	.detail.user-profile .box.user {
+	    min-height: 310px;
 	}
 }
 
