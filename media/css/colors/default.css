@@ -1500,7 +1500,8 @@ a.form-control:hover {
         background-color: #e52626;
     }
     
-    .place-detail .view .dropdown-menu.review-btn > li > a {
+    .place-detail .view .dropdown-menu.review-btn > li > a, 
+    .detail.user-profile .view .dropdown-menu.review-btn >li > a {
     	padding: 10px 17px;
     }
 
