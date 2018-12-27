@@ -405,7 +405,7 @@
 }
 
 .detail.user-profile .widget-posts-image.business-image {
-    width: 60px;
+    width: 50px;
     margin-right: 0px;
 }
 
@@ -427,7 +427,13 @@
 }
 
 .detail.user-profile .widget .business-review {
+	margin-left: 60px;
     padding-top: 0px;
+}
+
+.detail.user-profile .widget .business-review small {
+    position: relative;
+    top: -5px;
 }
 
 .detail.user-profile .widget .widget-posts-body h3 {
@@ -462,26 +468,6 @@
 
 .detail.user-profile .view .view-journey .tab-content .tab-pane {
     border: none;
-}
-
-.detail.user-profile .widget.img-place .widget-posts-image {
-    width: 50px;
-    margin: 0;
-}
-
-.detail.user-profile .widget.img-place .widget-posts-body {
-    margin-left: 70px;
-    padding-top: 0px;
-}
-
-.detail.user-profile .widget.img-place .widget-posts-body small {
-    position: relative;
-    top: -5px;
-}
-
-.detail.user-profile .widget.img-place .img-place-thumb {
-    width: 50px;
-    height: 50px;
 }
 
 .detail.user-profile .view .been-there .box,
