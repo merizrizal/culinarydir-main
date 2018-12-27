@@ -391,11 +391,8 @@
 }
 
 /*user profile*/
-.widget .heart-rating {
-    margin-top: 5px;
-}
-
-.box.user {
+.detail.user-profile .box.user,
+.detail.user-profile .box.user-love {
     height: 260px;
 }
 
@@ -1403,6 +1400,10 @@ a.form-control:hover {
         padding: 3px;
         font-weight: normal;
     }
+    
+    .detail.user-profile .box.user-love {
+	    height: 278px;
+	}
 
     .detail.user-update-profile .profile-img-container {
         position: relative !important;
@@ -1715,6 +1716,10 @@ a.form-control:hover {
 	.detail.user-profile .widget-posts-image.image-order-history {
     	width: 88px;
 	}
+	
+	.detail.user-profile .box.user-love {
+	    height: 270px;
+	}
 
     .infowindow {
         width: 250px;
@@ -1816,6 +1821,10 @@ a.form-control:hover {
     .titan-title-tagline {
         font-size: 28px;
     }
+    
+    .detail.user-profile .box.user-love {
+	    height: 274px;
+	}
 }
 
 /*md*/
@@ -1857,6 +1866,10 @@ a.form-control:hover {
     .popover-search .arrow {
         left: 47% !important;
     }
+    
+    .detail.user-profile .box.user-love {
+	    height: 279px;
+	}
 }
 
 /*lg*/
