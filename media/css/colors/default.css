@@ -390,6 +390,14 @@
    	margin-bottom: 0px;
 }
 
+.detail.place-detail .dropdown-menu.list-schedule {
+   	min-width: 150px;
+}
+
+.detail.place-detail .dropdown-menu.list-schedule > li {
+   	padding: 5px 0;
+}
+
 /*user profile*/
 .detail.user-profile .box.user-love {
     min-height: 280px;
