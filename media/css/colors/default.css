@@ -985,6 +985,7 @@ a.form-control:hover {
 .loading-img {
     z-index: 1020;
     background: transparent url('../../img/ajax-loader1.gif') 50% 50% no-repeat;
+    height: 128px;
 }
 
 .loading-text {
