@@ -391,7 +391,7 @@
 }
 
 .detail.place-detail .dropdown-menu.list-schedule {
-   	min-width: 150px;
+   	font-size: 15px;
 }
 
 .detail.place-detail .dropdown-menu.list-schedule > li {
