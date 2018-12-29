@@ -1404,6 +1404,10 @@ a.form-control:hover {
         padding: 10px 17px;
     }
     
+    .detail.place-detail .dropdown-menu.list-schedule {
+	   	font-size: 13px;
+	}
+    
     .detail.user-profile .user-profile-header {
 		margin-bottom: 0px !important;
 	}
@@ -1707,6 +1711,11 @@ a.form-control:hover {
 	.detail.place-detail .view .nav-tabs .badge.total-photo,
 	.detail.user-profile .view .nav-tabs .badge.total-user-photo {
 	    left: 4.9rem;
+	}
+	
+	.detail.place-detail .dropdown-menu.list-schedule {
+	   	font-size: 17px;
+	   	min-width: 200px;
 	}
 	
 	.detail.user-profile .view .nav-tabs .badge.total-order-history {
