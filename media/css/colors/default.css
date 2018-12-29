@@ -1467,15 +1467,11 @@ a.form-control:hover {
     }
 
     #modal-product-category > .modal-dialog > .modal-content > .modal-body {
-        height: calc(100vh - 125px);
+        height: calc(100vh - 200px);
     }
 
     #modal-region > .modal-dialog > .modal-content > .modal-body {
-        height: calc(100vh - 232px);
-    }
-
-    #modal-report > .modal-dialog > .modal-content > .modal-body {
-        height: calc(100vh - 100px);
+        height: calc(100vh - 300px);
     }
 }
 
