@@ -3870,6 +3870,29 @@ div[data-role="editor-toolbar"] {
 .select2-container--default.select2-container--focus .select2-selection--multiple {
   border: 1px solid #ccc;
 }
+
+.select2-container--krajee .select2-selection--multiple .select2-selection__choice__remove {
+  margin-top: 1px;
+}
+
+.select2-grid-system ul.select2-results__options > li.select2-results__option {
+  float: left;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .select2-grid-system ul.select2-results__options > li.select2-results__option {
+      float: left;
+      width: 33.33333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .select2-grid-system ul.select2-results__options > li.select2-results__option {
+      float: left;
+      width: 20%;
+  }
+}
 /** /Select2 **/
 
 /** Switchery **/
