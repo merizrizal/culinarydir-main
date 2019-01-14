@@ -252,13 +252,6 @@ console.log('%c Mau makan asik, Ya Asikmakan.com ', 'background: rgb(229, 38, 38
         });
 
     });
-
-    $(".result-list, .result-map").on("click", ".direct-link", function(event) {
-
-        if (!$(event.target).hasClass("next") && !$(event.target).hasClass("prev")) {
-            window.location.href = $(this).data("link");
-        }
-    });
 })(jQuery);
 
 
