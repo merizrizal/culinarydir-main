@@ -924,6 +924,10 @@ a.form-control:hover {
     left: 7.9rem;
 }
 
+.detail.user-profile .dropdown-menu.profile-btn > li > a {
+	padding: 10px 17px;
+}
+
 .detail .view .tab-content .tab-pane {
     border: none;
 }
@@ -967,7 +971,8 @@ a.form-control:hover {
     padding: 5px 20px;
 }
 
-.detail.menu-list .nav-menu .nav.nav-tabs .dropdown-menu > li > a:hover {
+.detail.menu-list .nav-menu .nav.nav-tabs .dropdown-menu > li > a:hover,
+.detail.user-profile .dropdown-menu.profile-btn >li > a:hover {
     background-color: #e52626;
     color: #fff;
 }
