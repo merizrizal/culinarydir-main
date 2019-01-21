@@ -150,6 +150,16 @@
     padding: 20px 0px 0px 0px;
 }
 
+.search-box.popover-search-box {
+    box-shadow:0 0 0 #000;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.search-box.popover-search-box .search-field-box-clear {
+    top: 4px !important;
+}
+
 .search-box .row {
     margin: 0px -5px;
 }
