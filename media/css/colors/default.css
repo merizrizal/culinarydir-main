@@ -11,7 +11,7 @@
 
 .navbar-custom .dropdown-menu .widget-posts-body {
 	margin-right: 15px;
-}	
+}
 
 .navbar-custom .dropdown-menu .widget-posts-image {
     width: 40px;
@@ -1488,6 +1488,10 @@ a.form-control:hover {
     #modal-region > .modal-dialog > .modal-content > .modal-body {
         height: calc(100vh - 300px);
     }
+    
+    .nav-tabs-fixed {
+    	width: calc(100vw - 32px);
+	}
 }
 
 /*tablet*/
@@ -1779,6 +1783,10 @@ a.form-control:hover {
     .detail .view .recent-post .box {
     	height: 480px;
     }
+    
+    .nav-tabs-fixed {
+    	width: calc(100vw - 32px);
+    }
 }
 
 /*sm*/
@@ -1861,6 +1869,10 @@ a.form-control:hover {
 	.detail.user-profile .box.user {
 	    min-height: 300px;
 	}
+	
+	.nav-tabs-fixed {
+		width: 718px;
+	}
 }
 
 /*md*/
@@ -1909,6 +1921,10 @@ a.form-control:hover {
 	
 	.detail.user-profile .box.user {
 	    min-height: 310px;
+	}
+	
+	.nav-tabs-fixed {
+		width: 776px;
 	}
 }
 
