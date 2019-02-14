@@ -1271,7 +1271,8 @@ a.form-control:hover {
     }
 
     .in-result .box.box-small h4,
-    .in-result .box.box-small .widget .icon-list li.tag {
+    .in-result .box.box-small .widget .icon-list li.tag,
+    .recent-post .box .post h4 {
         font-size: 14px;
     }
 
