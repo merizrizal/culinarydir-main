@@ -1,3 +1,56 @@
+.modal-search {
+	top: 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.modal-dialog-search {
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.modal-content-search {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 0;
+	box-shadow: none;
+	height: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.modal-header-search {
+	top: -10px;
+	right: 0;
+	left: 0;
+	height: 70px;
+	padding: 10px;
+	background: #fff;
+}
+
+.modal-title-search {
+	font-weight: 300;
+	font-size: 2em;
+	color: #000;
+	line-height: 30px;
+}
+
+.modal-body-search {
+	position: fixed;
+	top: 80px;
+	bottom: 60px;
+	left: 30px;
+	width: 100%;
+	font-weight: 300;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
 .navbar-custom {
     background-color: #00001e;
     text-transform: none;
