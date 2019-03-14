@@ -256,7 +256,7 @@
     color: #000;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     top: -1px;
-    right: 43px;
+    right: 45px;
     font-size: 20px;
     font-weight: 700;
     opacity: 0.4;
@@ -1214,37 +1214,7 @@ a.form-control:hover {
     padding-bottom: 5px;
 }
 
-.modal-search {
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 1030;
-}
-
-.modal-dialog-search {
-	margin: 0;
-	width: 100%;
-	padding: 0;
-}
-
-.modal-content-search {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	border-radius: 0;
-	box-shadow: none;
-	height: 100%;
-	overflow: auto;
-	overflow-x: hidden;
-}
-
 .modal-header-search {
-	top: -10px;
-	right: 0;
-	left: 0;
 	height: 70px;
 	padding: 10px;
 }
@@ -1256,19 +1226,32 @@ a.form-control:hover {
 	line-height: 30px;
 }
 
-.modal-body-search {
-	position: relative;
-	top: 80px;
-	bottom: 60px;
-	left: 30px;
-	width: 100%;
-	font-weight: 300;
-	overflow: auto;
-	overflow-x: hidden;
+.search-box-modal {
+    position: fixed;
+    height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    z-index: 1040;
 }
 
-.modal-body-search .facility-filter {
-	text-align: left;
+.search-box-modal .nav-tabs {
+	border-bottom: none;
+	padding-top: 50px;
+}
+
+.search-box-modal .tab-pane {
+	padding: 0;
+}
+
+.search-box-modal .close {
+    padding: 10px 35px 0 0;
 }
 
 /*general - pagination*/
