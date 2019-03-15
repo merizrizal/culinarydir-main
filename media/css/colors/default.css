@@ -181,17 +181,38 @@
     border: none;
 }
 
+.search-box-modal .nav-tabs > li.active > a,
+.search-box-modal .nav-tabs > li.active > a:focus,
+.search-box-modal .nav-tabs > li.active > a:hover {
+	color: #fff;
+	background-color: rgb(229, 38, 38);
+	border: none;
+}
+
 .search-box .nav-tabs > li > a {
     color: rgb(229, 38, 38);
     cursor: default;
     border: none;
+    border-radius: 4px 4px 0 0;	
 }
 
-.search-box .nav-tabs > li > a:hover {
+.search-box-modal .nav-tabs > li > a {
+	color: #000;
+    border: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.search-box .nav-tabs > li > a:hover,
+.search-box-modal .nav-tabs > li > a:hover {
     color: #fff;
     cursor: default;
     background-color: rgba(229, 38, 38, 0.5);
     border: none;
+}
+
+.search-box-modal .nav-tabs > li > a {
+	border-radius: 4px 4px 0 0;
+	text-align: center;
 }
 
 .search-favorite .btn-block + .btn-block,
@@ -200,32 +221,26 @@
     margin-top: 0px;
 }
 
-.search-favorite a.search-field-box .search-field-box-arrow,
-.search-special a.search-field-box .search-field-box-arrow,
-.search-order a.search-field-box .search-field-box-arrow {
-    border-left: 1px solid #aaa;
+.search-field-box-arrow {
+	border-left: 1px solid #aaa;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     position: absolute;
     height: 32px;
     top: 1px;
-    right: 17px;
+    right: 6px;
     width: 20px;
 }
 
-.search-favorite a.search-field-box i,
-.search-special a.search-field-box i,
-.search-order a.search-field-box i {
-    position: absolute;
+.search-field-box i {
+	position: absolute;
     top: 9px;
-    right: 7px;
+    right: 6px;
     color: #888;
 }
 
-.search-favorite .search-label,
-.search-special .search-label,
-.search-order .search-label {
-    color: #444 !important;
+.search-label {
+	color: #444 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 12px;
@@ -235,28 +250,28 @@
     vertical-align: middle;
 }
 
-.search-favorite .search-label:hover,
-.search-special .search-label:hover,
-.search-order .search-label:hover {
-    color: #000 !important;
+.search-label:hover {
+	color: #000 !important;
 }
 
-.search-favorite .search-label.more-option,
-.search-special .search-label.more-option,
-.search-order .search-label.more-option {
+.search-label.more-option {
 	padding: 0;
 	text-transform: none;
 	font-size: 13px;
 }
 
-.search-favorite .search-field-box-clear,
-.search-special .search-field-box-clear,
-.search-order .search-field-box-clear {
-    position: absolute;
+.search-favorite a.search-field-box .search-field-box-arrow,
+.search-special a.search-field-box .search-field-box-arrow,
+.search-order a.search-field-box .search-field-box-arrow {
+    right: 16px;
+}
+
+.search-field-box-clear {
+	position: absolute;
     color: #000;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     top: -1px;
-    right: 45px;
+    right: 35px;
     font-size: 20px;
     font-weight: 700;
     opacity: 0.4;
@@ -264,9 +279,13 @@
     cursor: pointer;
 }
 
-.search-favorite .search-field-box-clear:hover,
-.search-special .search-field-box-clear:hover,
-.search-order .search-field-box-clear:hover {
+.search-favorite .search-field-box-clear,
+.search-special .search-field-box-clear,
+.search-order .search-field-box-clear {
+    right: 45px;
+}
+
+.search-field-box-clear:hover {
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
