@@ -160,6 +160,17 @@
     top: 4px !important;
 }
 
+.search-box.result-list-page {
+	box-shadow: none;
+}
+
+.search-box .input-group-addon,
+.search-box.result-list-page .input-group-addon {
+	background-color: #fff;
+	border-top-left-radius: 0;
+	border-right: 0 !important;
+}
+
 .search-box .row {
     margin: 0px -5px;
 }
