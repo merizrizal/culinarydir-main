@@ -59,13 +59,6 @@
 }
 
 /*home*/
-.home-section.bg-dark {
-	background-color: #fff;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-
 .detail .view .recent-post .box {
     padding: 0px;
     height: 440px;
@@ -115,6 +108,11 @@
 
 .container .view .recent-post .post .head .user-name {
     padding-left: 0px;
+}
+
+.news-promo-section.owl-carousel button.owl-dot.active > span,
+.detail.place-detail .owl-carousel button.owl-dot.active > span {
+	background-color: rgb(229, 38, 38);
 }
 
 /*animation home*/
@@ -184,20 +182,15 @@
 }
 
 .search-box .nav-tabs > li.active > a,
+.search-box-modal .nav-tabs > li.active > a,
 .search-box .nav-tabs > li.active > a:focus,
-.search-box .nav-tabs > li.active > a:hover {
+.search-box-modal .nav-tabs > li.active > a:focus,
+.search-box .nav-tabs > li.active > a:hover,
+.search-box-modal .nav-tabs > li.active > a:hover {
     color: #fff;
     cursor: default;
     background-color: rgb(229, 38, 38);
     border: none;
-}
-
-.search-box-modal .nav-tabs > li.active > a,
-.search-box-modal .nav-tabs > li.active > a:focus,
-.search-box-modal .nav-tabs > li.active > a:hover {
-	color: #fff;
-	background-color: rgb(229, 38, 38);
-	border: none;
 }
 
 .search-box .nav-tabs > li > a {
@@ -452,6 +445,11 @@
 
 .detail.place-detail .dropdown-menu.list-schedule > li {
    	padding: 5px 0;
+}
+
+.detail.place-detail .tab-pane .btn-prev, 
+.detail.place-detail .tab-pane .btn-next {
+	padding-top: calc(100vh - 450px);
 }
 
 /*user profile*/
