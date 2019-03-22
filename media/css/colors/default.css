@@ -289,6 +289,12 @@
     right: 45px;
 }
 
+.search-favorite .input-name + .search-field-box-clear,
+.search-special .input-name + .search-field-box-clear,
+.search-order .input-name + .search-field-box-clear {
+    right: 25px;
+}
+
 .search-field-box-clear:hover {
     opacity: 0.6;
     filter: alpha(opacity=60);
