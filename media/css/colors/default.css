@@ -167,6 +167,9 @@
 	background-color: #fff;
 	border-top-left-radius: 0;
 	border-right: 0 !important;
+	border-left: 1px solid #ccc !important;
+	border-bottom: 1px solid #ccc !important;
+	border-top: 1px solid #ccc !important;
 }
 
 .search-box .row {
