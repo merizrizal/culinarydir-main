@@ -184,6 +184,18 @@
     border: none;
 }
 
+.search-box.result-list-page .nav-tabs > li > a {
+	background-color: rgb(245, 245, 245);
+}
+
+.search-box .nav-tabs > li > a {
+    color: rgb(229, 38, 38);
+    background-color: rgb(215, 215, 215);
+    cursor: default;
+    border: none;
+    border-radius: 4px 4px 0 0;	
+}
+
 .search-box .nav-tabs > li.active > a,
 .search-box-modal .nav-tabs > li.active > a,
 .search-box .nav-tabs > li.active > a:focus,
@@ -196,18 +208,10 @@
     border: none;
 }
 
-.search-box .nav-tabs > li > a {
-    color: rgb(229, 38, 38);
-    cursor: default;
-    border: none;
-    border-radius: 4px 4px 0 0;	
-}
-
 .search-box-modal .nav-tabs > li > a {
 	color: #000;
     border: none;
     border-radius: 4px 4px 0 0;
-    text-align: center;
 }
 
 .search-box .nav-tabs > li > a:hover,
