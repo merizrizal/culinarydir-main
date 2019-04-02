@@ -456,11 +456,6 @@
    	padding: 5px 0;
 }
 
-.detail.place-detail .tab-pane .btn-prev, 
-.detail.place-detail .tab-pane .btn-next {
-	padding-top: calc(100vh - 450px);
-}
-
 /*user profile*/
 .detail.user-profile .box.user-love {
     min-height: 280px;
