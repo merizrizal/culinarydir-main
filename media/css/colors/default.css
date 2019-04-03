@@ -184,10 +184,6 @@
     border: none;
 }
 
-.search-box.result-list-page .nav-tabs > li > a {
-	background-color: rgb(245, 245, 245);
-}
-
 .search-box .nav-tabs > li > a {
     color: white;
     background-color: rgb(144, 144, 144);
@@ -198,10 +194,13 @@
 
 .search-box .nav-tabs > li.active > a,
 .search-box-modal .nav-tabs > li.active > a,
+.search-box.result-list-page .nav-tabs > li.active > a,
 .search-box .nav-tabs > li.active > a:focus,
 .search-box-modal .nav-tabs > li.active > a:focus,
+.search-box.result-list-page .nav-tabs > li.active > a:focus,
 .search-box .nav-tabs > li.active > a:hover,
-.search-box-modal .nav-tabs > li.active > a:hover {
+.search-box-modal .nav-tabs > li.active > a:hover,
+.search-box.result-list-page .nav-tabs > li.active > a:hover {
     color: #fff;
     cursor: default;
     background-color: rgb(229, 38, 38);
@@ -215,7 +214,8 @@
 }
 
 .search-box .nav-tabs > li > a:hover,
-.search-box-modal .nav-tabs > li > a:hover {
+.search-box-modal .nav-tabs > li > a:hover,
+.search-box.result-list-page .nav-tabs > li > a:hover {
     color: #fff;
     cursor: default;
     background-color: rgb(98, 98, 98);
