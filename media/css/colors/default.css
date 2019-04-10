@@ -1278,7 +1278,7 @@ a.form-control:hover {
 }
 
 .search-box-modal .close {
-    padding: 10px 35px 0 0;
+    margin: 10px 35px 0 0;
 }
 
 /*general - pagination*/
@@ -1576,6 +1576,10 @@ a.form-control:hover {
     .nav-tabs-fixed {
     	width: calc(100vw - 32px);
 	}
+	
+	.search-box-modal .close {
+    	margin: 50px 15px 0 0;
+	}
 }
 
 /*tablet*/
@@ -1637,6 +1641,10 @@ a.form-control:hover {
     .input-group-sm.bootstrap-touchspin > .input-group-btn > .btn {
     	padding: 5px 6px;
     }
+    
+    .search-box-modal .nav-tabs {
+    	padding-top: 30px;
+	}
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
@@ -1871,6 +1879,10 @@ a.form-control:hover {
     .nav-tabs-fixed {
     	width: calc(100vw - 32px);
     }
+    
+    .search-box-modal .close {
+    	margin: 50px 15px 0 0;
+	}
 }
 
 /*sm*/
