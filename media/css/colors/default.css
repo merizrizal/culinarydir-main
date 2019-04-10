@@ -1576,10 +1576,6 @@ a.form-control:hover {
     .nav-tabs-fixed {
     	width: calc(100vw - 32px);
 	}
-	
-	.search-box-modal .close {
-    	margin: 50px 15px 0 0;
-	}
 }
 
 /*tablet*/
@@ -1644,6 +1640,10 @@ a.form-control:hover {
     
     .search-box-modal .nav-tabs {
     	padding-top: 30px;
+	}
+	
+	.search-box-modal .close {
+    	margin: 50px 15px 0 0;
 	}
 }
 
@@ -1879,10 +1879,6 @@ a.form-control:hover {
     .nav-tabs-fixed {
     	width: calc(100vw - 32px);
     }
-    
-    .search-box-modal .close {
-    	margin: 50px 15px 0 0;
-	}
 }
 
 /*sm*/
