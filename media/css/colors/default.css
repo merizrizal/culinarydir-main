@@ -1249,6 +1249,8 @@ a.form-control:hover {
 .modal-header-search {
 	height: 70px;
 	padding: 10px;
+	margin-top: 40px;
+	margin-right: 10px;
 }
 
 .modal-title-search {
@@ -1270,7 +1272,7 @@ a.form-control:hover {
 
 .search-box-modal .nav-tabs {
 	border-bottom: none;
-	padding-top: 50px;
+	padding-top: 0px;
 }
 
 .search-box-modal .tab-pane {
@@ -1278,7 +1280,18 @@ a.form-control:hover {
 }
 
 .search-box-modal .close {
-    margin: 10px 35px 0 0;
+    margin: 0px 23px 0 0;
+    opacity: 1;
+}
+
+.search-box-modal .input-group-addon {
+	border: 0 !important;
+	background-color: white;
+	padding: 0;
+}
+
+.search-box-modal .facility-collapse label {
+	font-weight: 500;
 }
 
 /*general - pagination*/
@@ -1638,13 +1651,10 @@ a.form-control:hover {
     	padding: 5px 6px;
     }
     
-    .search-box-modal .nav-tabs {
-    	padding-top: 30px;
-	}
-	
-	.search-box-modal .close {
-    	margin: 50px 15px 0 0;
-	}
+    .search-box-modal .modal-header-search {
+    	margin-top: 62px;
+    	margin-right: 70px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
