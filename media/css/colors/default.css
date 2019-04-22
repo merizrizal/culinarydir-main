@@ -1260,7 +1260,8 @@ a.form-control:hover {
 	line-height: 30px;
 }
 
-.search-box-modal {
+.search-box-modal,
+.order-confirmation-modal {
     position: fixed;
     height: 100%;
     width: 100%;
@@ -1279,12 +1280,14 @@ a.form-control:hover {
 	padding: 0;
 }
 
-.search-box-modal .close {
+.search-box-modal .close,
+.order-confirmation-modal .close {
     margin: 0px 23px 0 0;
     opacity: 1;
 }
 
-.search-box-modal .input-group-addon {
+.search-box-modal .input-group-addon, 
+.order-confirmation-modal .input-group-addon {
 	border: 0 !important;
 	background-color: white;
 	padding: 0;
