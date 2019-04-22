@@ -40,8 +40,9 @@
 		"kartik-v/yii2-popover-x" : "*",
 		"kartik-v/yii2-number" : "dev-master",
 		"2amigos/yii2-ckeditor-widget" : "~2.1",
-		"bower-asset/owl.carousel": "*",
-		"wisembly/elephant.io": "*"
+		"wisembly/elephant.io": "*",
+		"npm-asset/owl.carousel": "2.3.4",
+		"npm-asset/bootstrap-material-design": "4.1.1"
 	},
 	"require-dev" : {
 		"yiisoft/yii2-debug" : "~2.0.0",
