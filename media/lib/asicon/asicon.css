@@ -9,21 +9,6 @@
   font-style: normal;
 }
 
-[class^="aicon-"], [class*=" aicon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'asicon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .aicon {
  display:inline-block;
  font:normal normal normal 14px/1 Asicon;
