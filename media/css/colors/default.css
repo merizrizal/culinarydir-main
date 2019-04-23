@@ -1658,6 +1658,11 @@ a.form-control:hover {
     	margin-top: 62px;
     	margin-right: 70px;
     }
+    
+    .order-confirmation-modal .modal-header-search {
+    	margin-top: 62px;
+    	margin-right: 56px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
