@@ -42,6 +42,7 @@
 		"2amigos/yii2-ckeditor-widget" : "~2.1",
 		"wisembly/elephant.io": "*",
 		"npm-asset/owl.carousel": "2.3.4",
+		"npm-asset/popper.js": "1.14.3",
 		"npm-asset/bootstrap-material-design": "4.1.1"
 	},
 	"require-dev" : {
