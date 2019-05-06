@@ -58,6 +58,13 @@
 	padding-top: 70px !important;
 }
 
+b,
+strong,
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Museo Sans Cyrl 700";
+	font-weight: normal;
+}
+
 /*home*/
 .detail .view .recent-post .box {
     padding: 0px;
