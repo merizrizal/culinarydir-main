@@ -25,6 +25,7 @@
 		"yiisoft/yii2-swiftmailer" : "~2.0.0 || ~2.1.0",
 		"yiisoft/yii2-imagine" : "dev-master",
 		"yiisoft/yii2-authclient" : "dev-master",
+		"yiisoft/yii2-httpclient" : "dev-master",
 		"synctech/yii2-sybase" : "@dev",
 		"synctech/yii2-sycomponent" : "@dev",
 		"kartik-v/yii2-grid" : "@dev",
