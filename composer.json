@@ -26,6 +26,7 @@
 		"yiisoft/yii2-imagine" : "dev-master",
 		"yiisoft/yii2-authclient" : "dev-master",
 		"yiisoft/yii2-httpclient" : "dev-master",
+		"yiisoft/yii2-redis" : "~2.0.0",
 		"synctech/yii2-sybase" : "@dev",
 		"synctech/yii2-sycomponent" : "@dev",
 		"kartik-v/yii2-grid" : "@dev",
