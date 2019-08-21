@@ -2059,7 +2059,7 @@ a.form-control:hover {
     }
 
     .search-box {
-        padding: 36px 43px 18px;
+        padding: 36px 43px 0;
     }
 
     .container-map-detail {
