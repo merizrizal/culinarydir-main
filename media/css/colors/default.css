@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*widget search box*/
 .search-box {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     border-radius: 5px;
     border: 1px solid hsla(0,0%,100%,.3);
     background: hsla(0,0%,100%,.85);
@@ -299,9 +299,9 @@ h1, h2, h3, h4, h5, h6 {
     right: 45px;
 }
 
-.search-favorite .input-name + .search-field-box-clear,
-.search-special .input-name + .search-field-box-clear,
-.search-order .input-name + .search-field-box-clear {
+.search-favorite .search-input-modal + .search-field-box-clear,
+.search-special .search-input-modal + .search-field-box-clear,
+.search-order .search-input-modal + .search-field-box-clear {
     right: 25px;
 }
 
