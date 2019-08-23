@@ -229,9 +229,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 
-.search-favorite .btn-block + .btn-block,
-.search-special .btn-block + .btn-block,
-.search-order .btn-block + .btn-block {
+.search-modal .btn-block + .btn-block {
     margin-top: 0px;
 }
 
@@ -274,9 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 13px;
 }
 
-.search-favorite a.search-field-box .search-field-box-arrow,
-.search-special a.search-field-box .search-field-box-arrow,
-.search-order a.search-field-box .search-field-box-arrow {
+.search-modal a.search-field-box .search-field-box-arrow {
     right: 16px;
 }
 
@@ -293,15 +289,11 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.search-favorite .search-field-box-clear,
-.search-special .search-field-box-clear,
-.search-order .search-field-box-clear {
+.search-modal .search-field-box-clear {
     right: 45px;
 }
 
-.search-favorite .search-input-modal + .search-field-box-clear,
-.search-special .search-input-modal + .search-field-box-clear,
-.search-order .search-input-modal + .search-field-box-clear {
+.search-modal .search-input-modal + .search-field-box-clear {
     right: 25px;
 }
 
