@@ -2051,7 +2051,7 @@ a.form-control:hover {
     }
 
     .search-box {
-        padding: 36px 43px 0;
+        padding: 36px 43px 15px;
     }
 
     .container-map-detail {
