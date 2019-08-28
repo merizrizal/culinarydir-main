@@ -212,6 +212,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: default;
     background-color: rgb(229, 38, 38);
     border: none;
+    cursor: pointer;
 }
 
 .search-box-modal .nav-tabs > li > a {
@@ -227,6 +228,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: default;
     background-color: rgb(98, 98, 98);
     border: none;
+   	cursor: pointer;
 }
 
 .search-modal .btn-block + .btn-block {
