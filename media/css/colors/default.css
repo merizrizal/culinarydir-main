@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*widget search box*/
 .search-box {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     border-radius: 5px;
     border: 1px solid hsla(0,0%,100%,.3);
     background: hsla(0,0%,100%,.85);
@@ -212,6 +212,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: default;
     background-color: rgb(229, 38, 38);
     border: none;
+    cursor: pointer;
 }
 
 .search-box-modal .nav-tabs > li > a {
@@ -227,11 +228,10 @@ h1, h2, h3, h4, h5, h6 {
     cursor: default;
     background-color: rgb(98, 98, 98);
     border: none;
+   	cursor: pointer;
 }
 
-.search-favorite .btn-block + .btn-block,
-.search-special .btn-block + .btn-block,
-.search-order .btn-block + .btn-block {
+.search-modal .btn-block + .btn-block {
     margin-top: 0px;
 }
 
@@ -274,9 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 13px;
 }
 
-.search-favorite a.search-field-box .search-field-box-arrow,
-.search-special a.search-field-box .search-field-box-arrow,
-.search-order a.search-field-box .search-field-box-arrow {
+.search-modal a.search-field-box .search-field-box-arrow {
     right: 16px;
 }
 
@@ -293,15 +291,11 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.search-favorite .search-field-box-clear,
-.search-special .search-field-box-clear,
-.search-order .search-field-box-clear {
+.search-modal .search-field-box-clear {
     right: 45px;
 }
 
-.search-favorite .input-name + .search-field-box-clear,
-.search-special .input-name + .search-field-box-clear,
-.search-order .input-name + .search-field-box-clear {
+.search-modal .search-input-modal + .search-field-box-clear {
     right: 25px;
 }
 
@@ -1280,9 +1274,11 @@ a.form-control:hover {
 
 .search-box-modal .nav-tabs {
 	border-bottom: none;
+	
 	padding-top: 0px;
 }
 
+.search-box .tab-pane, 
 .search-box-modal .tab-pane {
 	padding: 0;
 }
@@ -2057,7 +2053,7 @@ a.form-control:hover {
     }
 
     .search-box {
-        padding: 36px 43px 18px;
+        padding: 36px 43px 15px;
     }
 
     .container-map-detail {
