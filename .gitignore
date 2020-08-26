@@ -34,5 +34,4 @@ phpunit.phar
 # vagrant runtime
 /.vagrant
 
-/uploads/*
 /environments/local-settings
